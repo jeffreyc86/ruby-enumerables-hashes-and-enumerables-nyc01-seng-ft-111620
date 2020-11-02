@@ -8,6 +8,10 @@
 
 def select_winner(passengers)
   winner = ""
-  passengers.each {|key, value| 
+  passengers.each do |key, value| 
+    if key == :suite_a && name
+    winner = winner.join (value)
+  end
   # add the code snippet here!
+  winner
 end
