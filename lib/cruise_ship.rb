@@ -7,6 +7,7 @@
 # }
 
 def select_winner(passengers)
-  passengers.each 
+  winner = ""
+  passengers.each {|key, value| 
   # add the code snippet here!
 end
