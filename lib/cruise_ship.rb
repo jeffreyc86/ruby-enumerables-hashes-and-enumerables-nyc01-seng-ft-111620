@@ -7,5 +7,6 @@
 # }
 
 def select_winner(passengers)
+  passengers.each 
   # add the code snippet here!
 end
